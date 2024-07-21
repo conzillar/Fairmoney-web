@@ -74,6 +74,398 @@ h3{
     background-color: black;
     /* border: 1px solid red; */
 }
+/* .dropdown{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ff0000;
+    background-color:#fff;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    visibility:hidden;
+    transition: 1s ease-in;
+} */
+
+.dropdown{
+    position: absolute;
+    width: 280px;
+    height: 520px;
+    margin-left: -7rem;
+    z-index: 9999;
+    transition: 1s ease-in;
+    visibility: hidden;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color:#fff;
+}
+ul li:hover .dropdown{
+    visibility: visible;
+    transition: 1s;
+}
+ul li{
+    color: rgb(102, 98, 98);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+}
+.jell{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jell .redimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/fair1.svg);
+    /* border: 1px solid red; */
+}
+.jell .redtext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.jell .like{
+        width: 22%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(116, 78, 151);
+    /* background-color: rgb(116, 78, 151); */
+
+}
+.wait{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+.wait .was{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color:  rgb(154, 233, 184);
+}
+.wait .wasimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair2.svg);
+}
+.wait .wastext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.joly{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(75, 9, 105);  */
+}
+.joly .forimage{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(116, 78, 151);
+    /* border: 1px solid red; */
+   
+}
+.joly .theimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* background-color: rgb(116, 78, 151); */
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/fair3.svg); 
+}
+.joly .text{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+/* .joly h3{
+    color: rgb(32, 31, 31);
+    width: 90%;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin-top: -1.2rem;
+    font-weight: 550;
+    margin-left: 5rem;
+} */
+
+.phone{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone .let{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color:rgb(8, 241, 125) ;
+}
+.phone .letimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair3.svg); 
+}
+.phone .letext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.goat{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.goat .file{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color:rgb(69, 134, 94) ;
+}
+.goat .fileimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair5.svg); 
+}
+.goat .filetext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.five{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.five .fiv{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(136, 8, 255);
+}
+.five .fivimage{
+    width: 12px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair6.svg); 
+}
+.fivtext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.fixe{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */ 
+}
+.fixe .fix{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(85, 156, 112);
+}
+.fixe .fiximage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair7.svg); 
+}
+.fixe .fixtext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.dropdown1{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    margin-left: -7rem;
+    z-index: 9999;
+    transition: 1s ease-in;
+    visibility: hidden;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color:#fff;
+}
+.dropdown1 ul{
+    display: flex;
+    flex-direction: column ;
+}
+ul li:hover .dropdown1{
+    visibility: visible;
+}
+.gang{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.gang .draft{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(24, 61, 226);
+}
+.gang .draftimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair1.svg);
+}
+.gang .draftext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+.fang{
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.fang .clone{
+    width: 22%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(85, 156, 112);
+}
+.fang .clonimage{
+    width: 20px;
+    height: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/fair2.svg);
+}
+.fang .clontext{
+    width: 70%;
+    color: #3d3b3b;
+    font-size: 0.9rem;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+
 .container{
     width: 100%;
     height: 100vh;
@@ -98,6 +490,7 @@ h3{
     margin-left: -4%;
     margin-top:18%;
     /* z-index: 99999; */
+    /* visibility: hidden; */
     position: absolute;
     transform: translateX(-50%);
     transform: rotate(30deg);
@@ -105,13 +498,6 @@ h3{
     background-image: url(../img/home1.webp);
     background-position: center;
     background-size: contain;
-}
-.and{
-    /* width:37% ; */
-    /* height: 700px; */
-    /* margin-left: 35%; */
-    /* border: 1px solid red; */
-
 }
 .and h4{
     font-family: sans-serif;
@@ -889,6 +1275,7 @@ h3{
     width: 60%;
     height: 400px;
     display: flex;
+    /* position:fixed; */
     margin-left: 28rem;
     margin-top: -21.8rem;
     border-radius: 12px;
@@ -926,6 +1313,7 @@ h3{
     font-size: 1.2rem;
     font-weight: 200;
     line-height: 2rem;
+    /* position: relative; */
 }
 .lamb{
     width: 100%;
@@ -1335,7 +1723,7 @@ h3{
 .tam h3{
     color: #f0ebeb;
     /* margin-top:1rem; */
-    /* margin-left: 4rem; */
+    margin-left: 4rem;
     font-family:sans-serif ;
     font-size: 0.9rem;
     font-weight: 550;
