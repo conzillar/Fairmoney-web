@@ -18,6 +18,7 @@ nav{
     background-image: url(../img/fair232.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .nav-tabs{
     width: 43%;
@@ -61,6 +62,7 @@ h3{
     background-image: url(../img/fair222.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }.button{
     width: 9%;
     height: 40px;
@@ -130,6 +132,7 @@ ul li{
     background-size: contain;
     background-position: center;
     background-image: url(../img/fair1.svg);
+    background-repeat: no-repeat;
     /* border: 1px solid red; */
 }
 .jell .redtext{
@@ -174,6 +177,7 @@ ul li{
     margin-left: 1rem;
     /* border: 1px solid red; */
     background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/fair2.svg);
 }
@@ -213,6 +217,7 @@ ul li{
     /* background-color: rgb(116, 78, 151); */
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     background-image: url(../img/fair3.svg); 
 }
 .joly .text{
@@ -258,6 +263,7 @@ ul li{
     /* border: 1px solid red; */
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../img/fair3.svg); 
 }
 .phone .letext{
@@ -294,6 +300,7 @@ ul li{
     /* border: 1px solid red; */
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../img/fair5.svg); 
 }
 .goat .filetext{
@@ -330,6 +337,7 @@ ul li{
     /* border: 1px solid red; */
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../img/fair6.svg); 
 }
 .fivtext{
@@ -576,6 +584,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/ndc22.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .china{
     width: 12%;
@@ -586,6 +595,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/ndc11.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .umeh{
     width: 30%;
@@ -596,6 +606,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/ndc33.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .mimi{
     width: 100%;
@@ -1128,6 +1139,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/DST_Global_d6b41cc69c.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .henr{
     width: 11%;
@@ -1138,6 +1150,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/Flourish_3dc21bde07.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .emma{
     width: 14%;
@@ -1148,6 +1161,8 @@ ul li:hover .dropdown1{
     background-image: url(../img/newfund_3fa515a414.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+
 }
 .chimu{
     width: 14%;
@@ -1158,6 +1173,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/Speedinvest_042cd3aad7.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .chuk{
     width: 13%;
@@ -1168,6 +1184,7 @@ ul li:hover .dropdown1{
     background-image: url(../img/e3aa08b0542519e9_c87cdd3fe4.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .def h1{
     font-family:sans-serif;
@@ -1558,6 +1575,7 @@ ul li:hover .dropdown1{
     /* border: 1px solid yellow; */
     background-image: url(../img/home3.PNG);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .top{
@@ -1591,7 +1609,8 @@ ul li:hover .dropdown1{
     border-radius: 12px;
     background-image: url(../img/snip2.PNG);
     background-position: center;
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .nok{
     width: 16%;
@@ -1603,9 +1622,11 @@ ul li:hover .dropdown1{
     /* overflow: visible; */
     /* border:1px solid red; */
     border-radius: 12px;
+    justify-content: center;
     background-image: url(../img/snip1.PNG);
     background-position: center;
     background-size: contain;  
+    background-repeat: no-repeat;
 }
 .horizontal-line{
     width: 60%;
@@ -1622,6 +1643,7 @@ ul li:hover .dropdown1{
     margin-top: 2rem;
     background-image: url(../img/score22.PNG);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .hand{
@@ -1793,6 +1815,7 @@ ul li:hover .dropdown1{
     border-radius: 12px;
     background-image: url(../img/snip1.PNG);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
 }
 .fan{
@@ -1807,780 +1830,1165 @@ ul li:hover .dropdown1{
     border-radius: 12px;
     background-image: url(../img/snip2.PNG);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width:600px) {
-    .container{
-        width:100%;
-        height: 600px;
-        display: block;flex-wrap: wrap;
-    }
-     /* header{ 
+@media screen and (max-width:400px) {
+    .header{
         width: 100%;
-        height: 110px;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
     }
     nav{
         width: 100%;
-        height: 100px;
         display: flex;
-        flex-wrap: wrap; 
-    } */
-    .edna{
-        width: 100%;
-        height: 340px;
-        display: block;
         flex-wrap: wrap;
     }
-    .me{
-        width: 15%;
-        height: 117px;
-        margin-top: 14rem;
-        display: block;
-        flex-wrap: wrap;
+    .nav-tabs ul li a{
+        margin-left: -4rem;
+    }
+    
+     .nav-tabs h2{
         visibility: hidden;
+    }
+    .nav-tabs h3{
+        visibility: hidden;
+    }
+    .button{
+        visibility: hidden;
+    }
+   .contain{
+    width: 100%;
+    height: 300px;
+    display: block;
+    flex-wrap: wrap;
+   }
+   .edna{
+    width: 100%;
+    height: 300px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 0.1rem;
+   }
+   .and h4{
+    font-size: 1.4rem;
+    margin-left: 5rem;
+   }
+   .and h5{
+    font-size: 1.4rem;
+    margin-left: 7rem;
+    margin-top: -1.6rem;
+   }
+   .and h6{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
+   }
+   .me{
+    visibility: hidden;
+   }
+   .you{
+    visibility: hidden;
+   }
+   .odi{
+    width: 100%;
+    height: 80px;
+    display: block;
+    flex-wrap: wrap;
+   }
+   .opoo{
+    width: 34%;
+    height: 60px;
+    margin-top: -0.5rem;
+    margin-left: 3.5rem;
+}
+.china{
+    width: 25%;
+    height: 60px;
+    margin-top: -1rem;
+    margin-left: 3.5rem;
+}
+.umeh{
+    width: 35%;
+    height: 60px;
+    margin-top: -1.3rem;
+    margin-left: 3.5rem;
+}
+.mimi{
+    width: 100%;
+    height: 1450px;
+    display: block;
+    flex-wrap:wrap ;
+    margin-top: -2rem;
+}
+.ben h1{
+    font-size:1.5rem;
+    text-align: center;
+    margin-left: -0.3rem;
+    /* margin-top: 1rem; */
+}
+.ben h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+.gan{
+    width: 75%;
+    height: 220px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+.gan h2{
+    font-size: 1.3rem;
+   
+}
+.gan h1{
+    margin-top: 1rem;
+    margin-top: 2rem;
+}
+.gan h3{
+    font-size: 1.3rem;
+    margin-top: -1.5rem;
+}
+.len{
+    width: 75%;
+    height: 220px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-top: -8.3rem;
+}
+.len h1{
+    font-size: 1.5rem;
+}
+.len h2{
+    margin-left:1rem ;
+    margin-top: 2rem;
+}
+.len h3{
+    margin-top: 2rem;
+}
+.josh{
+    width: 75%;
+    height: 220px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.josh h1{
+    font-size: 1.5rem;
+}
+.josh h2{
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+.josh h3{
+    font-size: 2.1rem;
+    margin-left: 1.5rem;
+    margin-top: -1.5rem;
+}
+.josh h4{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.kok{
+    width: 75%;
+    height: 220px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.kok h1{
+    font-size: 1.5rem;
+}
+.kok h2{
+    margin-top: 1rem;
+}
+.kok h3{
+    font-size: 1.4rem;
+}
+.chiso{
+    width: 75%;
+    height: 220px;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-top: -8rem;
+}
+.mom{
+    width: 100%;
+    height: 1200px;
+    display: block;
+    flex-wrap: wrap;
+}
+.lig{
+    width: 100%;
+    height: 300px;
+    display: block;
+    flex-wrap: wrap;
+}
+.the h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.light{
+    width: 90%;
+    height: 300px;
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.light h2{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.light h3{
+    font-size: 1rem;
+}
+.learn{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+}
+.wed{
+    width: 27%;
+    height: 170px;
+}
+.brow{
+    width: 90%;
+    height: 300px;
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.brow h1{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.brow h2{
+    font-size: 1rem;
+}
+.more{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+}
+.edn{
+    width: 27%;
+    height: 170px;
+}
+.main{
+    width: 90%;
+    height: 300px;
+    display:block;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.main h1{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.main h2{
+    font-size: 1rem;
+}
+.dance{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+}
+.giv{
+    width: 27%;
+    height: 170px;
+}
+.mama{
+    width: 100%;
+    height: 1100px;
+    display: block;
+    flex-wrap: wrap;
+}
+.schol{
+    width: 100%;
+    height: 100px;
+    display: block;
+    flex-wrap: wrap;
+}
+.jeff{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-top: -5rem;
+}
+.jeff h1{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.jef{
+    width:40%;
+    height: 40px;
+    font-size: 0.9rem;
+    margin-left: 6rem;
+    margin-top: -1rem;
+
+}
+.vico{
+    width: 80%;
+    height: 60px;
+    visibility: hidden;
+
+}
+.vico h1{
+    font-size: 1rem;
+    visibility: visible;
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+}
+.phil{
+    width: 85%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.dav{
+    width: 25%;
+    height: 60px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.henr{
+    width: 30%;
+    height: 60px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.emma{
+    width: 35%;
+    height: 60px;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+}
+.chimu{
+    width:40%;
+    height: 60px;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+}
+.chuk{
+    width:40%;
+    height: 60px;
+    margin-left: 6rem;
+    margin-top: -1rem;
+}
+.def h1{
+    font-size: 1.7rem;
+    margin-left: 6.5rem;
+    margin-top: 20rem;
+
+}
+.kel{
+    width: 100%;
+    height: 200px;
+    display: block;
+    flex-wrap: wrap;
+}
+.jak{
+    width: 90%;
+    height: 100px;
+    margin-left: 1rem;
+}
+.nam{
+    visibility: hidden;
+}
+.date{
+    visibility: hidden;
+}
+.time{
+    visibility: hidden;
+}
+.vertical-line{
+    visibility: hidden;
+}
+.glo{
+    width: 100%;
+    height: 500px;
+    display:block;
+    flex-wrap: wrap;
+    margin-top: -14rem;
+    margin-left: 1rem;
+}
+.men h2{
+    font-size: 1.5rem;
+}
+.gir h3{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.lamb{
+    width: 100%;
+    height: 2200px;
+    display: block;
+    flex-wrap: wrap;
+}
+.ran{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.ran h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.ran h3{
+    font-size: 1.5rem;
+    margin-top:2.2rem;
+    margin-left: -1rem;
+}
+.font{
+    visibility: hidden;
+}
+.fonts{
+    visibility: hidden;
+}
+.dan{
+    width: 100%;
+    height: 100px;
+    display: block;
+    flex-wrap: wrap;
+}
+.tan{
+    width: 85%;
+    height: 510px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.tan h1{
+    font-size: 1rem;
+}
+.tan h3{
+    font-size: 0.8rem;
+}
+.tan h2{
+    font-size: 1rem;
+}
+.tak{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+.han{
+    width: 85%;
+    height: 510px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+.han h1{
+    font-size: 1rem;
+}
+.han h3{
+    font-size: 0.8rem;
+    margin-top: -1rem;
+}
+.han h2{
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+.hak{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: -1.3rem;
+}
+.kal{
+    width: 85%;
+    height: 510px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+.kal h1{
+    font-size: 1rem;
+}
+.kal h3{
+    font-size: 0.8rem;
+    margin-top: -1rem;
+}
+.kal h2{
+    font-size: 1rem;
+    margin-top: -0.5rem;
+}
+.kak{
+    width: 35%;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: -1.3rem;
+}
+.gig{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 70rem;
+    margin-left: -8rem;
+
+}
+.pho{
+    width: 80%;
+    height: 200px;
+    margin-left: 15rem;
+    margin-top: 25rem;
+}
+.top{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+}
+.nok{
+    margin-left: 10rem;
+    margin-top: -2.8rem;
+}
+.log{
+    margin-left: 15rem;
+    margin-top: -2rem;
+}
+.top h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.horizontal-line{
+    width: 90%;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.top h3{
+    font-size: 0.8rem;
+    margin-left: 15rem;
+    margin-top: -5rem;
+    /* text-align: center; */
+}
+.fuk{
+    width: 30%;
+    height: 80px;
+    margin-left: 7rem;
+    margin-top:2rem;
+}
+.hand{
+    width: 100%;
+    height: 800px;
+    display: block;
+    flex-wrap: wrap;
+}
+.egg{
+    margin-left: -9rem;
+    margin-top:-1.5rem ;
+}
+.van{
+    margin-left: -1rem;
+    margin-top:-4rem ;
+}
+.tam{
+    margin-left: -1rem;
+    margin-top: -4rem;
+}
+.done{
+    width: 100%;
+    display:block;
+    flex-wrap: wrap;
+    /* margin-left: 9rem; */
+}
+.pan {
+    display:block;
+    flex-wrap:wrap ;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.pan h1{
+    margin-left: 2rem;
+}
+.pam{
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: -24rem;
+    margin-top: 15rem;
+}
+}
+@media (min-width:400px) and (max-width:1024px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        width: 100%;
+        height: 110px;
+    }
+    nav{
+        width: 100%;
+        height: 110px;
+        display: flex;
+    }
+    .nav-logo{
+        width: 18%;
+        height: 60px;
+        margin-left: 1rem;
+    }
+    .nav-tabs ul {
+        justify-content: space-between;
+        margin-left: -8rem;
+    }
+    .edna{
+        width: 100%;
+        height: 700px;
+        display:block;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+    }
+    .me{
+        width: 20%;
+        height: 300px;
+        margin-top: 29rem;
     }
     .and{
         width: 100%;
-        height: 100px;
         display: block;
         flex-wrap: wrap;
+        margin-left: -12rem;
     }
     .and h4{
-        font-size: 1.8rem;
-        font-weight: 500;
-        margin-left: 3rem;
+        font-size: 2rem;
+        line-height: 38px;
     }
     .and h5{
-        font-size: 1.7rem;
-        font-weight: 500;
-        margin-left:5.8rem;
+        font-size: 2rem;
         margin-top: -2rem;
     }
     .and h6{
-        font-size: 0.8rem;
-        font-weight: 300;
-        text-align: center;
-        margin-top: -2rem;
-        margin-left: 1rem;
+        font-size: 1.6rem;
     }
     .vic{
-        width: 15%;
-        height: 20px;
-        display: block;
-        flex-wrap:wrap ;
-        border-radius: 4px;
-        margin-left: 14rem;
+        width: 20%;
+        height: 53px;
     }
     .img1{
-        width: 15%;
-        height: 20px;
-        display: block;
-        flex-wrap: wrap;
-        border-radius:4px ;
-        margin-left: 9rem;
-        /* visibility: hidden; */
+        width: 20%;
+        height: 55px;
+        margin-left: 30rem;
     }
     .you{
-        width: 35%;
-        height: 120px;
-        display: block;
-        flex-wrap: wrap;
-        margin-top: -3.7rem;
-        visibility: hidden;
-        margin-left: 22rem;
+        width: 40%;
+        height: 300px;
+        visibility: visible;
+        margin-left: 45rem;
+        margin-top: -25rem;
     }
     .odi{
         width: 100%;
-        height: 30px;
-        display: block;
+        height: 100px;
+        display:flex;
         flex-wrap: wrap;
     }
     .opoo{
-        width: 30%;
-        height: 40px;
-        display: block;
-        margin-left: 2rem;
-        margin-top: 0.3rem;
-        flex-wrap: wrap;
-
-    }
-    .china{
-        width: 20%;
-        height: 31px;
-        display: block;
-        margin-top: -2.3rem;
-        margin-left: 9rem;
-        flex-wrap: wrap;
+        width:40%;
+        height: 60px;
+        margin-left: 1rem;
     }
     .umeh{
-        width: 32%;
-        height: 27px;
-        margin-top: -1.7rem;
-        margin-left:15rem;
-        display: block;
-        flex-wrap:wrap ;
+        margin-top: -4.7rem;
+        margin-left: 30rem;
     }
     .mimi{
         width: 100%;
-        height: 1300px;
-        display: block;
-        flex-wrap: wrap;
-        margin-top: -5rem;
-        background-color:rgb(243, 243, 243);
-    }
-    .ben{
-        width: 100%;
-        height: 100px;
-        /* margin-top: 4rem; */
-        display: block;
+        height: 1500px;
+        display: flex;
         flex-wrap: wrap;
     }
     .ben h1{
-        font-size: 1rem;
+        font-size: 3rem;
         text-align: center;
-        margin-left: -0.5rem;
-        line-height: 20px;
+        margin-left: 8rem;
+        margin-top: 1rem;
     }
     .ben h2{
-        font-size: 1rem;
+        font-size: 1.8rem;
         text-align: center;
-        margin-left: -0.5rem;
-        margin-top: 1rem;
-        line-height: 22px;
+        margin-left: 9rem;
     }
     .gan{
-        width: 90%;
-        height: 200px;
+        width: 43%;
+        height: 300px;
         margin-left: 1rem;
-        display: block;
-        flex-wrap: wrap;
-    }
-    .gan h1{
-        font-size: 1.9rem;
-        font-weight: 400;
-        margin-top: 4rem;
-        margin-left: 2rem;
+        margin-top: 1rem;
     }
     .gan h2{
-        font-size: 1.5rem;
-        font-weight: 400;
-        margin-left: 2.2rem;
-        margin-top: 3rem;
-        font-family: sans-serif;
+        font-size: 1.7rem;
+    }
+    .gan h1{
+        margin-top: 1.5rem;
     }
     .gan h3{
-        font-size: 1.5rem;
-        font-weight: 300;
-        margin-top: 2rem;
-
+        font-size: 1.7rem;
+        margin-top: 1rem;
     }
-
     .len{
-        width: 90%;
-        height: 200px;
-        margin-left: 1rem;
-        margin-top: -8rem;
-        display: block;
-        flex-wrap: wrap;
+        width: 43%;
+        height: 300px;
+        margin-top: 1rem;
     }
     .len h1{
-        font-size: 1rem;
-        font-weight: 550;
-        margin-left: 2rem;
-        /* margin-top: 1rem; */
+        font-size: 2rem;
+        margin-top: 6rem;
     }
     .len h2{
-        font-size:1.5rem ;
-        margin-left: 2rem;
-        margin-top: 4rem;
+        margin-top: 1.3rem;
     }
     .len h3{
-        font-size: 1rem;
-        margin-top: 2rem;
-        font-weight: 550;
-        margin-left: 2rem;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
     }
     .josh{
-        width: 90%;
-        height: 200px;
+        width: 43%;
+        height: 300px;
+        margin-top: 3rem;
         margin-left: 1rem;
-        margin-top: -1rem;
-        display: block;
-        flex-wrap: wrap;
     }
     .josh h1{
-        font-size: 1rem;
-        font-weight: 550;
-        margin-left: 2rem;
-    }
-    .josh h2{
-        font-size: 1.4rem;
-        margin-left: 2rem;
-        margin-top: 2rem;
-    }
-    .josh h3{
-        font-size: 1.3rem;
-        font-weight: 550;
-        margin-top: 2rem;
+        font-size: 2rem;
     }
     .josh h4{
-        margin-top: 2rem;
+        font-size: 1.3rem;
+        margin-top: -4rem;
     }
     .kok{
-        width: 90%;
-        height: 200px;
-        margin-left: 1rem;
-        margin-top: -1rem;
-        display: block;
-        flex-wrap: wrap;
+        width: 43%;
+        height: 300px;
+        margin-top: 3rem;
+        margin-left: 3.7rem; 
     }
     .kok h1{
-        font-size: 1rem;
-        line-height: 30px;
-
+        font-size: 1.8rem;
     }
     .kok h2{
-        font-size: 3rem;
+        font-size: 8rem;
         margin-top: 1rem;
     }
     .kok h3{
-       font-size: 1rem;
-       margin-top:-1rem;
-       margin-left: 2rem; 
+        font-size: 1.7rem;
     }
     .chiso{
-        width: 90%;
-        height: 200px;
-        margin-left: 1rem;
-        margin-top: -8rem;
-        display: block;
-        flex-wrap: wrap;
+        width: 43%;
+        height: 300px;
+        margin-top: 2rem;
+        margin-left: 13rem;  
     }
     .chiso h1{
-        font-size: 1rem;
+        font-size: 2rem;
+        margin-top: 5rem;
     }
     .chiso h2{
-        font-size: 1.6rem;
-        margin-top: 2.4rem;
+        margin-top: 2rem;
     }
     .chiso h3{
-        font-size: 1rem;
-        margin-top: 2rem;
-        line-height: 27px;
+        font-size: 1.5rem;
+        margin-top: -1rem;
     }
     .mom{
         width: 100%;
-        height: 950px;
-        display: block;
+        height: 2000px;
+        display:flex;
         flex-wrap: wrap;
     }
     .the{
-        width: 100%;
-        height: 130px;
-        display: block;
-        margin-top: -4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
         flex-wrap: wrap;
     }
     .the h1{
-        font-size: 1.6rem;
-
+        font-size: 2.8rem;
+        margin-left: 9rem;
+        margin-top: 1rem;
     }
     .lig{
-        width: 100%;
-        height: 100px;
-        display: block;
+        display:block;
         flex-wrap: wrap;
     }
     .light{
-        width: 90%;
-        height: 250px;
-        display: block;
-        margin-top: -7rem;
-        margin-left: 1.2rem;
-        flex-wrap: wrap;
+        width: 75%;
+        height: 550px;
+        margin-left: 5rem;
+        margin-top: -5rem;
+        /* display: block; */
+        /* flex-wrap: wrap; */
     }
     .light h2{
-        font-size: 1.8rem;
-        margin-top: 1rem;
+        font-size: 4rem;
     }
     .light h3{
-        font-size: 1.1rem;
-        /* text-align:justify; */
-        line-height: 25px;
-    }
-    .wed{
-        width: 20%;
-        height: 120px;
-        display: block;
-        margin-left: 16rem;
-        margin-top: -3rem;
-        flex-wrap: wrap;
+        font-size: 2rem;
+        line-height: 46px;
     }
     .learn{
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .wed{
         width: 30%;
-        height: 40px;
-        font-size: 0.9rem;
+        height:370px;
+        margin-top: -4rem;
+        margin-left: 25rem;
     }
     .brow{
-        width: 90%;
-        height: 250px;
-        display: block;
-        margin-top: 0.5rem;
-        margin-left: 1.2rem;
-        flex-wrap: wrap;
+        width: 75%;
+        height: 550px;
+        margin-left: 5rem;
+        margin-top: 1.5rem;
     }
     .brow h1{
-        font-size: 1.8rem;
-        margin-top: 1rem; 
+        font-size: 4rem;
     }
     .brow h2{
-        font-size: 1.1rem;
-        /* text-align:justify; */
-        line-height: 25px;
-    }
-    .edn{
-        width: 20%;
-        height: 120px;
-        display: block;
-        margin-left: 16rem;
-        margin-top: -3rem;
-        flex-wrap: wrap;
+        font-size: 2rem;
+        line-height: 46px;
     }
     .more{
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .edn{
         width: 30%;
-        height: 40px;
-        font-size: 0.9rem; 
+        height:370px;
+        margin-top: -4rem;
+        margin-left: 25rem;
     }
     .main{
-        width: 90%;
-        height: 250px;
-        display: block;
-        margin-top: 0.5rem;
-        margin-left: 1.2rem;
-        flex-wrap: wrap;
+        width: 75%;
+        height: 550px;
+        margin-left: 5rem;
+        margin-top: 1.5rem;
     }
     .main h1{
-        font-size: 1.8rem;
-        margin-top: 1rem; 
+        font-size: 4rem;
     }
     .main h2{
-        font-size: 1.1rem;
-        /* text-align:justify; */
-        line-height: 25px;
-    }
-    .giv{
-        width: 20%;
-        height: 120px;
-        display: block;
-        margin-left: 16rem;
-        margin-top: -3rem;
-        flex-wrap: wrap;
+        font-size: 2rem;
+        line-height: 46px;
     }
     .dance{
+        height: 70px;
+        font-size: 1.5rem;
+    }
+    .giv{
         width: 30%;
-        height: 40px;
-        font-size: 0.9rem;
+        height:370px;
+        margin-top: -4rem;
+        margin-left: 25rem;
     }
     .mama{
         width: 100%;
         height: 1030px;
-        display: block;
+        display:block;
         flex-wrap: wrap;
+        
     }
     .schol{
         width: 100%;
-        height: 900px;
+        height: 100px;
         display: block;
         flex-wrap: wrap;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
     .jeff{
         width: 90%;
-        height: 190px;
-        margin-left: 0.8rem;
+        height: 198px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
         margin-top: -11rem;
-        display: block;
-        flex-wrap:wrap ;
+
     }
     .jeff h1{
-        font-size: 1.7rem;
-        margin-top: 1rem;
+        font-size: 2rem;
+        margin-top: 1.5rem;
         margin-left: 1rem;
         text-align: center;
     }
     .jef{
-        width: 55%;
-        height: 50px;
-        margin-left: 4rem;
-        margin-top: 0.2rem;
+        width: 30%;
+        height: 60px;
+        font-size: 1.4rem;
+        margin-left: 15rem;
+        margin-top: -1.5rem;
     }
     .vico{
-        width: 80%;
+        width: 70%;
         height: 80px;
-        display: block;
-        flex-wrap: wrap;
-        visibility: hidden;
-        margin-top: 9rem;
-        margin-left: 2.3rem;
+        margin-left: 7rem;
+        margin-top:8.5rem;
     }
     .vico h1{
-        font-size: 1.3rem;
-        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 1.7rem;
+        margin-left: 3rem;
+        margin-top: 2.5rem;
+    }
+    .phil{
+        width:90%;
+        height: 188px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: -0.1rem;
+    }
+    .dav{
+        width: 15%;
+        margin-left: 3rem;
+    }
+    .henr{
+        width: 17%;
+        margin-left: 2rem;
+        
+    }
+    .emma{
+        width: 19%;
+        margin-left:3rem;
+        margin-top: 4rem;
+    }
+    .chimu{
+        width: 23%;
+        /* height: 80px; */
+        margin-left:2rem;
+    }
+    .chuk{
+        width: 25%;
+        margin-left: 17rem;
+        margin-top: 1rem;
+    }
+    .def h1{
+        margin-left: 15rem;
+    }
+    .kel{
+        margin-left: -3rem;
+        display: block;
+        flex-wrap: wrap;
+        width:100% ;
+        height: 100px; 
+        visibility: hidden;
+    }
+    .jak{
+        width: 45%;
+        height: 80px;
         visibility: visible;
         margin-left: 3rem;
     }
-    .phil{
-        width: 80%;
-        height: 300px;
-        display:flex;
-        margin-left: 1.7rem;
-        margin-top: 0.2rem;
-        flex-wrap: wrap;
-    }
-    .dav{
-        width: 28%;
-        height: 52px;
-        margin-left: 2rem;
-    }
-    .henr{
-        width: 30%;
-        height: 48px;
-        margin-left: 3.7rem;
-        margin-top: 2.7rem;  
-    }
-    .emma{
-        width: 36%;
-        height: 30px;
-        margin-left: 1.8rem;
-        margin-top: 2.7rem;  
-    }
-    .chimu{
-        width: 40%;
-        height: 30px;
-        margin-left: 1.5rem;
-        margin-top: 2.7rem;  
-    }
-    .chuk{
-        width: 44%;
-        height: 35px;
-        margin-left: 4.7rem;
-        margin-top: 2rem;   
-    }
-    .def{
-        width: 50%;
-        height: 100px;
-        margin-top: 5rem;
-    }
-    .def h1{
-        font-size: 1.5rem;
-        margin-left: 6rem;
-        margin-top: 20rem;
-    }
-    .kel{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
-    }
-    .jak{
-        width: 90%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap; 
-        margin-left: 1rem;
-        /* margin-top: 1rem; */
-    }
-    .jak h2{
-        margin-top: -5rem;
-        font-size: 1.1rem;
-    }
-    .nam{
-        width: 90%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap; 
-        margin-left: 1rem;
-        visibility: hidden;
-
-    }
-    .date{
-        width: 90%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap; 
-        margin-left: 1rem;
-        margin-top: 5rem;
-        visibility: hidden;
-    }
-
-    .time{
-        width: 90%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap; 
-        margin-left: 1rem;
-        visibility: hidden;
+    .jak .font{
+        visibility: visible;
     }
     .glo{
-        width: 90%;
-        height: 400px;
-        display: block;
-        flex-wrap: wrap; 
-        /* margin-left: 1rem; */
-        margin-top: -8rem;
-        margin-left: 1rem;
-    }
-    .vertical-line{
-        visibility: hidden;
-    }
-    .men{
         width: 100%;
-        height: 100px;
-        display: block;
-        margin-top: 2rem;
-        flex-wrap: wrap;
-    }
-    .men h2{
-        font-size: 1.5rem;
-        /* line-height: 5px; */
-    }
-    .gir{
-        width: 100%;
-        height: 60px;
-        display: block;
-        flex-wrap: wrap;
-    }
-    .gir h3{
-        font-size: 0.9rem;
-        margin-left: 1.3rem;
-        line-height: 20px;
-        margin-top: 1rem;
+        margin-left: 0.1rem;
+        margin-top: 0.1rem;
     }
     .lamb{
         width: 100%;
-        height: 2900px;
-        display: block;
+        height: 3500px;
+        display: flex;
         flex-wrap: wrap;
-        margin-top: -6rem;
     }
     .ran{
-        width: 100%;
-        height: 100px;
-        display: block;
+        display: flex;
         flex-wrap: wrap;
     }
     .ran h2{
-        font-size: 1.5rem;
-        /* margin-top: 2rem; */
-    }
-    .fonts{
-        visibility: hidden;
+        margin-left: 3rem;
+
     }
     .font{
         visibility: hidden;
     }
+    .fonts{
+        visibility: hidden;
+    }
     .dan{
         width: 100%;
-        height: 100px;
+        height: 1000px;
         display: block;
-        flex-wrap: wrap;
-        margin-left: 0.3rem;
+        flex-wrap:wrap ;
     }
     .tan{
-        width: 100%;
-        height: 600px;
-        display: block;
+        width: 85%;
+        height: 700px;
+        display:flex;
         flex-wrap: wrap;
-        margin-left: -0.3rem;
+        margin-top: -3rem;
+        margin-left: 3rem;
+
+    }
+    .tan h1{
+        font-size: 1.5rem;
     }
     .tan h2{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
     }
     .tan h3{
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-top: -1rem;
     }
     .tak{
-        margin-top: -3rem;
-        margin-left: 1rem;
+        width: 25%;
+        height: 70px;
+        font-size: 1.5rem;
+        margin-top: -1rem;
     }
     .tank{
-        width: 92%;
         height: 300px;
-        margin-left: 0.9rem;
-        margin-top: -2rem;
+        margin-left: 2rem;
+        
     }
     .han{
-        width: 100%;
-        height: 600px;
-        display: block;
+        width: 85%;
+        height: 700px;
+        display:flex;
         flex-wrap: wrap;
-        margin-left: -0.3rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
+        margin-left: 3rem;  
     }
-    .hank{
-        width: 92%;
-        height: 300px;
-        margin-left: 0.9rem;
-        margin-top: -2rem;
+    .han h1{
+        font-size: 1.5rem;
     }
     .han h2{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        margin-top: -1rem;
     }
-    .hak{
-        margin-top: -3rem;
-        margin-left: 1rem; 
-    }
-    .kal{
-        width: 100%;
-        height: 600px;
-        display: block;
-        flex-wrap: wrap;
-        margin-left: -0.3rem;
-        margin-top: 3rem;
-    }
-    .kalk{
-        width: 92%;
-        height: 300px;
-        margin-left: 0.9rem;
+    .han h3{
+        font-size: 1.5rem;
         margin-top: -2rem;
     }
+    .hak{
+        width: 25%;
+        height: 70px;
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+    .hank{
+        height: 300px;
+        margin-left: 2rem;
+        
+    }
+    .kal{
+        width: 85%;
+        height: 700px;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-left: 3rem;  
+    }
+    .kal h1{
+        font-size: 1.5rem;
+    }
     .kal h2{
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        margin-top: -1rem;
+    }
+    .kal h3{
+        font-size: 1.5rem;
+        margin-top: -2rem;
     }
     .kak{
-        margin-top: -3rem;
-        margin-left: 1rem; 
+        width: 25%;
+        height: 70px;
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+    .kalk{
+        height: 300px;
+        margin-left: 2rem;
+        
     }
     .gig{
         width: 100%;
         height: 100px;
-        display: block;
+        display:block;
         flex-wrap: wrap;
-        margin-top: 6rem;
+        margin-top:45rem ;
+        margin-left: -5rem;
     }
     .pho{
-        width: 60%;
-        height: 400px;
-        display: block;
-        flex-wrap: wrap;
-        margin-top: 110rem;
-        margin-left: 4.5rem;
+        width: 45%;
+        height: 500px;
+        margin-left: 17rem;
+        margin-top:25rem;
     }
     .top{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
-        /* margin-top: 4rem; */
+        margin-top: -3rem;
     }
     .top h2{
-        font-size: 1.5rem;
-        /* text-align: center; */
-        margin-left: 1rem;
-        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.7rem;
+        margin-left:8rem ;
+        margin-top: 5rem;
     }
     .top h3{
-        margin-left: 2rem;
-        margin-top:1rem ;
-        font-size: 1.5rem;
+        margin-left: 25rem;
+    }
+    .log{
+        margin-left: 28rem;
+    }
+    .nok{
+        margin-left: 19rem;
+    }
+    .horizontal-line{
+        margin-left: 13rem;
+    }
+    .fuk{
+        margin-left: 15rem;
     }
     .hand{
         width: 100%;
-        height: 900px;
-        display: block;
+        height: 800px;
+        display: flex;
         flex-wrap: wrap;
-        /* margin-left: 2rem; */
-    }
-    .log{
-        width: 40%;
-        height: 50px;
-        margin-left: 1.5rem;
-        margin-top: 1rem;
-    }
-    .nok{
-        width: 40%;
-        height: 46px;
-        margin-left: 11.5rem;
-        margin-top: -3rem;
-    }
-    .horizontal-line{
-        width: 90%;
-        /* visibility: hidden; */
-        margin-left: 1rem;
-    }
-    .fuk{
-        width: 50%;
-        height: 180px;
-        margin-left: 5rem;
-        margin-top: 1rem;
     }
     .egg{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
-        margin-left: -7.7rem;
-    }
-    .van{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
-    }
-    .tam{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
-        margin-top: -2.8rem;
+        margin-left: -8rem;
     }
     .done{
         width: 100%;
-        height: 100px;
-        display: block;
-        /* margin-left: 2rem; */
+        display: flex;
         flex-wrap: wrap;
     }
     .pan{
-        width: 100%;
-        height: 100px;
-        display:block;
-        margin-left: 2rem;
-        flex-wrap: wrap;
-        margin-top: 1rem;
-    }
-    .pan h1{
-        margin-left: 2rem;
-    }
-    .had{
-        width: 100%;
-        height: 100px;
-        display:flex;
-        margin-left: -3rem;
-        flex-wrap: wrap;
+        margin-left: 3rem;
+        margin-top: -16rem;
     }
     .had h1{
-        margin-left: 7rem;
-        margin-top: 3rem;
+        margin-left: 3rem;
+        font-size: 1rem;
+        margin-top: -18rem;
     }
     .pam{
-        width: 100%;
-        height: 100px;
-        display: block;
-        flex-wrap: wrap;
+        margin-top: -5rem;
+        margin-left: 1rem;
     }
-    .fan{
-        margin-left: 4rem;
-        margin-top: 6rem;
-    }
-    .lam{
-        margin-left: 4rem;
 
-    }
-    .yam .font1{
-        margin-top: -6rem;
-        margin-left: 4rem;
-        color: #fff;
-    }
+
 }
